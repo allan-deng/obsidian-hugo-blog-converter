@@ -1,0 +1,10 @@
+{
+	"id": "hugo-blog-converter",
+	"name": "Hugo Blog Converter",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "将 obsidian 文件转为 hugo blog",
+	"author": "AllanDeng",
+	"authorUrl": "",
+	"isDesktopOnly": true
+}
