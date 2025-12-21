@@ -13,7 +13,10 @@ if [ "$1" == "clean" ]; then
     exit 0
 fi
 
-# Step 1: 执行 npm run build
+# Step 1: 安装依赖
+npm install
+
+# Step 2: 执行 npm run build
 npm run build
 
 # Step 2: copy manifest.json 到 build 目录
